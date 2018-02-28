@@ -1,0 +1,101 @@
+[2018-02-28T00:51:42,220][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: plugins directory [/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/plugins] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:167) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:323) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) [elasticsearch-cli-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [elasticsearch-cli-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) [elasticsearch-6.2.1.jar:6.2.1]
+[2018-02-28T00:51:42,229][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: plugins directory [/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/plugins] not found
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:125) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:124) ~[elasticsearch-cli-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) ~[elasticsearch-6.2.1.jar:6.2.1]
+Caused by: java.lang.IllegalStateException: plugins directory [/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/plugins] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativePluginControllers(Spawner.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:167) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:323) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 6 more
+[2018-02-28T00:52:23,133][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-28T00:52:23,249][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [1.8gb], net total_space [6.8gb], types [ext4]
+[2018-02-28T00:52:23,250][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-28T00:52:23,252][INFO ][o.e.n.Node               ] node name [L_2H3xM] derived from node ID [L_2H3xMqRmGShOpaUg62vw]; set [node.name] to override
+[2018-02-28T00:52:23,253][INFO ][o.e.n.Node               ] version[6.2.1], pid[6119], build[7299dc3/2018-02-07T19:34:26.990113Z], OS[Linux/4.10.0-28-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-02-28T00:52:23,253][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.Zg8nXTYT, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1, -Des.path.conf=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/config]
+[2018-02-28T00:52:24,134][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [aggs-matrix-stats]
+[2018-02-28T00:52:24,135][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [analysis-common]
+[2018-02-28T00:52:24,135][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [ingest-common]
+[2018-02-28T00:52:24,135][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-expression]
+[2018-02-28T00:52:24,135][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-mustache]
+[2018-02-28T00:52:24,136][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-painless]
+[2018-02-28T00:52:24,136][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [mapper-extras]
+[2018-02-28T00:52:24,136][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [parent-join]
+[2018-02-28T00:52:24,137][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [percolator]
+[2018-02-28T00:52:24,137][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [rank-eval]
+[2018-02-28T00:52:24,137][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [reindex]
+[2018-02-28T00:52:24,137][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [repository-url]
+[2018-02-28T00:52:24,137][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [transport-netty4]
+[2018-02-28T00:52:24,137][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [tribe]
+[2018-02-28T00:52:24,138][INFO ][o.e.p.PluginsService     ] [L_2H3xM] no plugins loaded
+[2018-02-28T00:52:28,093][INFO ][o.e.d.DiscoveryModule    ] [L_2H3xM] using discovery type [zen]
+[2018-02-28T00:52:28,791][INFO ][o.e.n.Node               ] initialized
+[2018-02-28T00:52:28,791][INFO ][o.e.n.Node               ] [L_2H3xM] starting ...
+[2018-02-28T00:52:29,029][INFO ][o.e.t.TransportService   ] [L_2H3xM] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-02-28T00:52:29,048][WARN ][o.e.b.BootstrapChecks    ] [L_2H3xM] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-02-28T00:52:32,158][INFO ][o.e.c.s.MasterService    ] [L_2H3xM] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{hX_cER7ESR-QDQq7Zn2SGQ}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-28T00:52:32,165][INFO ][o.e.c.s.ClusterApplierService] [L_2H3xM] new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{hX_cER7ESR-QDQq7Zn2SGQ}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{hX_cER7ESR-QDQq7Zn2SGQ}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-28T00:52:32,243][INFO ][o.e.h.n.Netty4HttpServerTransport] [L_2H3xM] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-02-28T00:52:32,243][INFO ][o.e.n.Node               ] [L_2H3xM] started
+[2018-02-28T00:52:32,255][INFO ][o.e.g.GatewayService     ] [L_2H3xM] recovered [0] indices into cluster_state
+[2018-02-28T00:53:19,571][INFO ][o.e.n.Node               ] [L_2H3xM] stopping ...
+[2018-02-28T00:53:19,681][INFO ][o.e.n.Node               ] [L_2H3xM] stopped
+[2018-02-28T00:53:19,682][INFO ][o.e.n.Node               ] [L_2H3xM] closing ...
+[2018-02-28T00:53:19,702][INFO ][o.e.n.Node               ] [L_2H3xM] closed
+[2018-02-28T01:09:17,521][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-28T01:09:17,611][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [595.9mb], net total_space [6.8gb], types [ext4]
+[2018-02-28T01:09:17,611][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-28T01:09:17,612][INFO ][o.e.n.Node               ] node name [L_2H3xM] derived from node ID [L_2H3xMqRmGShOpaUg62vw]; set [node.name] to override
+[2018-02-28T01:09:17,613][INFO ][o.e.n.Node               ] version[6.2.1], pid[6762], build[7299dc3/2018-02-07T19:34:26.990113Z], OS[Linux/4.10.0-28-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-02-28T01:09:17,613][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.bdI3P1Le, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1, -Des.path.conf=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/config]
+[2018-02-28T01:09:18,306][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [aggs-matrix-stats]
+[2018-02-28T01:09:18,306][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [analysis-common]
+[2018-02-28T01:09:18,306][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [ingest-common]
+[2018-02-28T01:09:18,306][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-expression]
+[2018-02-28T01:09:18,306][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-mustache]
+[2018-02-28T01:09:18,306][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-painless]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [mapper-extras]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [parent-join]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [percolator]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [rank-eval]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [reindex]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [repository-url]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [transport-netty4]
+[2018-02-28T01:09:18,307][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [tribe]
+[2018-02-28T01:09:18,308][INFO ][o.e.p.PluginsService     ] [L_2H3xM] no plugins loaded
+[2018-02-28T01:09:21,631][INFO ][o.e.d.DiscoveryModule    ] [L_2H3xM] using discovery type [zen]
+[2018-02-28T01:09:22,671][INFO ][o.e.n.Node               ] initialized
+[2018-02-28T01:09:22,671][INFO ][o.e.n.Node               ] [L_2H3xM] starting ...
+[2018-02-28T01:09:23,132][INFO ][o.e.t.TransportService   ] [L_2H3xM] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-02-28T01:09:23,178][WARN ][o.e.b.BootstrapChecks    ] [L_2H3xM] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-02-28T01:09:23,686][INFO ][o.e.m.j.JvmGcMonitorService] [L_2H3xM] [gc][1] overhead, spent [263ms] collecting in the last [1s]
+[2018-02-28T01:09:26,364][INFO ][o.e.c.s.MasterService    ] [L_2H3xM] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{Y1SR-i3URM2CvJGOgo5Hdg}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-28T01:09:26,386][INFO ][o.e.c.s.ClusterApplierService] [L_2H3xM] new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{Y1SR-i3URM2CvJGOgo5Hdg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{Y1SR-i3URM2CvJGOgo5Hdg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-28T01:09:26,503][INFO ][o.e.g.GatewayService     ] [L_2H3xM] recovered [0] indices into cluster_state
+[2018-02-28T01:09:26,515][INFO ][o.e.h.n.Netty4HttpServerTransport] [L_2H3xM] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-02-28T01:09:26,516][INFO ][o.e.n.Node               ] [L_2H3xM] started
+[2018-02-28T01:09:56,428][WARN ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] high disk watermark [90%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 593mb[8.4%], shards will be relocated away from this node
+[2018-02-28T01:09:56,430][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-02-28T01:10:26,466][WARN ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] high disk watermark [90%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 593.4mb[8.4%], shards will be relocated away from this node
+[2018-02-28T01:10:32,050][INFO ][o.e.n.Node               ] [L_2H3xM] stopping ...
+[2018-02-28T01:10:32,148][INFO ][o.e.n.Node               ] [L_2H3xM] stopped
+[2018-02-28T01:10:32,155][INFO ][o.e.n.Node               ] [L_2H3xM] closing ...
+[2018-02-28T01:10:32,251][INFO ][o.e.n.Node               ] [L_2H3xM] closed
