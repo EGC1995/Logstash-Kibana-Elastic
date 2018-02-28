@@ -99,3 +99,1190 @@ Caused by: java.lang.IllegalStateException: plugins directory [/home/andrew/Desk
 [2018-02-28T01:10:32,148][INFO ][o.e.n.Node               ] [L_2H3xM] stopped
 [2018-02-28T01:10:32,155][INFO ][o.e.n.Node               ] [L_2H3xM] closing ...
 [2018-02-28T01:10:32,251][INFO ][o.e.n.Node               ] [L_2H3xM] closed
+[2018-02-28T12:59:59,414][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-28T13:00:00,091][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [947.5mb], net total_space [6.8gb], types [ext4]
+[2018-02-28T13:00:00,093][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-28T13:00:00,145][INFO ][o.e.n.Node               ] node name [L_2H3xM] derived from node ID [L_2H3xMqRmGShOpaUg62vw]; set [node.name] to override
+[2018-02-28T13:00:00,152][INFO ][o.e.n.Node               ] version[6.2.1], pid[2947], build[7299dc3/2018-02-07T19:34:26.990113Z], OS[Linux/4.10.0-28-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-02-28T13:00:00,154][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.4I7DJU6l, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1, -Des.path.conf=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/config]
+[2018-02-28T13:00:07,222][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [aggs-matrix-stats]
+[2018-02-28T13:00:07,229][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [analysis-common]
+[2018-02-28T13:00:07,245][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [ingest-common]
+[2018-02-28T13:00:07,250][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-expression]
+[2018-02-28T13:00:07,257][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-mustache]
+[2018-02-28T13:00:07,258][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-painless]
+[2018-02-28T13:00:07,262][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [mapper-extras]
+[2018-02-28T13:00:07,263][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [parent-join]
+[2018-02-28T13:00:07,266][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [percolator]
+[2018-02-28T13:00:07,287][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [rank-eval]
+[2018-02-28T13:00:07,287][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [reindex]
+[2018-02-28T13:00:07,288][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [repository-url]
+[2018-02-28T13:00:07,289][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [transport-netty4]
+[2018-02-28T13:00:07,289][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [tribe]
+[2018-02-28T13:00:07,290][INFO ][o.e.p.PluginsService     ] [L_2H3xM] no plugins loaded
+[2018-02-28T13:00:26,957][INFO ][o.e.d.DiscoveryModule    ] [L_2H3xM] using discovery type [zen]
+[2018-02-28T13:00:31,284][INFO ][o.e.n.Node               ] initialized
+[2018-02-28T13:00:31,284][INFO ][o.e.n.Node               ] [L_2H3xM] starting ...
+[2018-02-28T13:00:32,485][INFO ][o.e.t.TransportService   ] [L_2H3xM] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-02-28T13:00:32,557][WARN ][o.e.b.BootstrapChecks    ] [L_2H3xM] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-02-28T13:00:33,797][INFO ][o.e.m.j.JvmGcMonitorService] [L_2H3xM] [gc][2] overhead, spent [510ms] collecting in the last [1.3s]
+[2018-02-28T13:00:35,935][INFO ][o.e.c.s.MasterService    ] [L_2H3xM] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{0XUut3qJTye7SHLCXyJPDw}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-28T13:00:35,966][INFO ][o.e.c.s.ClusterApplierService] [L_2H3xM] new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{0XUut3qJTye7SHLCXyJPDw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{0XUut3qJTye7SHLCXyJPDw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-28T13:00:36,122][INFO ][o.e.h.n.Netty4HttpServerTransport] [L_2H3xM] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-02-28T13:00:36,123][INFO ][o.e.n.Node               ] [L_2H3xM] started
+[2018-02-28T13:00:36,128][INFO ][o.e.g.GatewayService     ] [L_2H3xM] recovered [0] indices into cluster_state
+[2018-02-28T13:01:06,089][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 938.6mb[13.3%], replicas will not be assigned to this node
+[2018-02-28T13:01:36,102][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 938.1mb[13.3%], replicas will not be assigned to this node
+[2018-02-28T13:02:06,109][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 938.4mb[13.3%], replicas will not be assigned to this node
+[2018-02-28T13:02:36,125][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 938.3mb[13.3%], replicas will not be assigned to this node
+[2018-02-28T13:03:06,134][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 938.4mb[13.3%], replicas will not be assigned to this node
+[2018-02-28T13:03:36,149][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] rerouting shards: [one or more nodes has gone under the high or low watermark]
+[2018-02-28T13:04:06,251][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1gb[14.7%], replicas will not be assigned to this node
+[2018-02-28T13:04:36,257][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1022.1mb[14.5%], replicas will not be assigned to this node
+[2018-02-28T13:05:06,273][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1021.4mb[14.5%], replicas will not be assigned to this node
+[2018-02-28T13:05:36,278][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1021.2mb[14.5%], replicas will not be assigned to this node
+[2018-02-28T13:06:06,291][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1018.1mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:06:36,303][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1018mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:07:06,319][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1018mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:07:36,327][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1018mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:08:06,348][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1018mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:08:36,357][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.4mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:09:06,371][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.4mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:09:36,374][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.3mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:10:06,381][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.3mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:10:36,389][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.3mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:11:06,395][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.3mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:11:36,401][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.2mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:12:06,408][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.3mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:12:36,412][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.2mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:13:06,423][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1018.1mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:13:09,423][INFO ][o.e.n.Node               ] [L_2H3xM] stopping ...
+[2018-02-28T13:13:09,554][INFO ][o.e.n.Node               ] [L_2H3xM] stopped
+[2018-02-28T13:13:09,555][INFO ][o.e.n.Node               ] [L_2H3xM] closing ...
+[2018-02-28T13:13:09,684][INFO ][o.e.n.Node               ] [L_2H3xM] closed
+[2018-02-28T13:46:01,843][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-28T13:46:01,967][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [1018.2mb], net total_space [6.8gb], types [ext4]
+[2018-02-28T13:46:01,967][INFO ][o.e.e.NodeEnvironment    ] [L_2H3xM] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-28T13:46:01,969][INFO ][o.e.n.Node               ] node name [L_2H3xM] derived from node ID [L_2H3xMqRmGShOpaUg62vw]; set [node.name] to override
+[2018-02-28T13:46:01,970][INFO ][o.e.n.Node               ] version[6.2.1], pid[6053], build[7299dc3/2018-02-07T19:34:26.990113Z], OS[Linux/4.10.0-28-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-02-28T13:46:01,970][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.Dee7MeJJ, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1, -Des.path.conf=/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/config]
+[2018-02-28T13:46:03,151][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [aggs-matrix-stats]
+[2018-02-28T13:46:03,152][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [analysis-common]
+[2018-02-28T13:46:03,152][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [ingest-common]
+[2018-02-28T13:46:03,152][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-expression]
+[2018-02-28T13:46:03,153][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-mustache]
+[2018-02-28T13:46:03,153][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [lang-painless]
+[2018-02-28T13:46:03,153][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [mapper-extras]
+[2018-02-28T13:46:03,153][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [parent-join]
+[2018-02-28T13:46:03,153][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [percolator]
+[2018-02-28T13:46:03,153][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [rank-eval]
+[2018-02-28T13:46:03,154][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [reindex]
+[2018-02-28T13:46:03,154][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [repository-url]
+[2018-02-28T13:46:03,154][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [transport-netty4]
+[2018-02-28T13:46:03,155][INFO ][o.e.p.PluginsService     ] [L_2H3xM] loaded module [tribe]
+[2018-02-28T13:46:03,156][INFO ][o.e.p.PluginsService     ] [L_2H3xM] no plugins loaded
+[2018-02-28T13:46:07,429][INFO ][o.e.d.DiscoveryModule    ] [L_2H3xM] using discovery type [zen]
+[2018-02-28T13:46:08,325][INFO ][o.e.n.Node               ] initialized
+[2018-02-28T13:46:08,325][INFO ][o.e.n.Node               ] [L_2H3xM] starting ...
+[2018-02-28T13:46:08,607][INFO ][o.e.t.TransportService   ] [L_2H3xM] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-02-28T13:46:08,629][WARN ][o.e.b.BootstrapChecks    ] [L_2H3xM] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-02-28T13:46:11,765][INFO ][o.e.c.s.MasterService    ] [L_2H3xM] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{BI5eAgJpTimFsYrDH6gSQg}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-28T13:46:11,775][INFO ][o.e.c.s.ClusterApplierService] [L_2H3xM] new_master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{BI5eAgJpTimFsYrDH6gSQg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {L_2H3xM}{L_2H3xMqRmGShOpaUg62vw}{BI5eAgJpTimFsYrDH6gSQg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-28T13:46:11,858][INFO ][o.e.h.n.Netty4HttpServerTransport] [L_2H3xM] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-02-28T13:46:11,858][INFO ][o.e.n.Node               ] [L_2H3xM] started
+[2018-02-28T13:46:11,865][INFO ][o.e.g.GatewayService     ] [L_2H3xM] recovered [0] indices into cluster_state
+[2018-02-28T13:46:41,838][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1018.1mb[14.5%], replicas will not be assigned to this node
+[2018-02-28T13:47:11,850][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1017.6mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:47:41,855][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1011.7mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:48:11,861][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1011.6mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:48:39,768][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [logstash-2018.02.28] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-02-28T13:48:41,969][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1011.4mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:48:42,202][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/AYylX16YTc2grHYdbTBWUg] create_mapping [doc]
+[2018-02-28T13:49:12,035][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1011.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:49:27,276][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [.kibana] creating index, cause [auto(bulk api)], templates [kibana_index_template:.kibana], shards [1]/[1], mappings [doc]
+[2018-02-28T13:49:27,567][INFO ][o.e.c.m.MetaDataUpdateSettingsService] [L_2H3xM] updating number_of_replicas to [0] for indices [.kibana]
+[2018-02-28T13:49:27,725][INFO ][o.e.c.m.MetaDataUpdateSettingsService] [L_2H3xM] [.kibana/zg2jJN6ZS32YWESVX0-R6A] auto expanded replicas to [0]
+[2018-02-28T13:49:31,304][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [.kibana/zg2jJN6ZS32YWESVX0-R6A] update_mapping [doc]
+[2018-02-28T13:49:42,047][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:50:12,059][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1011.1mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T13:50:42,064][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:51:12,072][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:51:42,109][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:52:12,118][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:52:42,130][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:53:12,166][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1011mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:53:42,202][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1011mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:54:12,213][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:54:42,254][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:55:12,261][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:55:42,282][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:56:12,313][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:56:42,326][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:57:12,333][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:57:42,343][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:58:12,350][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:58:42,387][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:59:12,396][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T13:59:42,423][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:00:12,452][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:00:42,460][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:01:12,479][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:01:42,487][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:02:12,502][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.6mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:02:42,516][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:03:12,521][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:03:42,526][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:04:12,558][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:04:42,563][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:05:12,577][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:05:32,123][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [log] creating index, cause [api], templates [], shards [5]/[1], mappings [log]
+[2018-02-28T14:05:42,585][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:06:12,589][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:06:42,596][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:07:12,639][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:07:16,299][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/AYylX16YTc2grHYdbTBWUg] update_mapping [doc]
+[2018-02-28T14:07:42,646][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:08:12,659][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:08:42,666][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:09:12,675][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:09:42,706][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:10:12,719][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:10:42,728][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:11:12,738][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:11:42,749][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:12:12,758][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:12:42,772][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:13:12,781][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1010mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:13:42,785][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:14:12,795][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:14:42,802][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:15:12,811][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:15:26,908][INFO ][o.e.c.m.MetaDataDeleteIndexService] [L_2H3xM] [logstash-2018.02.28/AYylX16YTc2grHYdbTBWUg] deleting index
+[2018-02-28T14:15:29,306][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [logstash-2018.02.28] creating index, cause [api], templates [logstash], shards [5]/[1], mappings [_default_, log]
+[2018-02-28T14:15:40,250][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:40,263][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][3] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][3]] containing [index {[logstash-2018.02.28][doc][LKwO3mEBtdlGX-xiYmXA], source[{"type":"CPUUsage","host":"andrew-VirtualBox","tags":["_grokparsefailure"],"@version":"1","@timestamp":"2018-02-28T20:15:40.112Z","path":"/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/logstash-6.2.2/data/CPUUsage.txt","message":""}]}]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:42,818][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:15:56,356][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,373][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][2] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][2]] containing [4] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,401][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,403][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][1] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][1]] containing [2] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,405][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,423][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,418][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][1] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][1]] containing [2] requests
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:714) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:692) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:673) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1034) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1012) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:103) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:359) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:299) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:975) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:972) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2220) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:984) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:98) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:320) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:295) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:282) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:656) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:635) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Mixing up field types: class org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType != class org.elasticsearch.index.mapper.KeywordFieldMapper$KeywordFieldType on field time
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:373) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:52) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDynamicValue(DocumentParser.java:818) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:612) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:407) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 32 more
+[2018-02-28T14:15:56,426][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][0] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][0]] containing [5] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,430][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][4] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][4]] containing [2] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,507][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][4] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][4]] containing [2] requests
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:714) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:692) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:673) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1034) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1012) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:103) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:359) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:299) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:975) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:972) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2220) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:984) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:98) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:320) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:295) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:282) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:656) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:635) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Mixing up field types: class org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType != class org.elasticsearch.index.mapper.KeywordFieldMapper$KeywordFieldType on field time
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:373) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:52) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDynamicValue(DocumentParser.java:818) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:612) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:407) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 32 more
+[2018-02-28T14:15:56,514][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][3] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][3]] containing [5] requests
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:714) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:692) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:673) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1034) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1012) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:103) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:359) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:299) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:975) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:972) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2220) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:984) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:98) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:320) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:295) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:282) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:656) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:635) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Mixing up field types: class org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType != class org.elasticsearch.index.mapper.KeywordFieldMapper$KeywordFieldType on field time
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:373) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:52) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDynamicValue(DocumentParser.java:818) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:612) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:407) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 32 more
+[2018-02-28T14:15:56,523][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,541][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][3] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][3]] containing [5] requests
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:714) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:692) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:673) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1034) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1012) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:103) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:359) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:299) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:975) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:972) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2220) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:984) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:98) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:320) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:295) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:282) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:656) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:635) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Mixing up field types: class org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType != class org.elasticsearch.index.mapper.KeywordFieldMapper$KeywordFieldType on field time
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:373) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:52) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDynamicValue(DocumentParser.java:818) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:612) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:407) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 32 more
+[2018-02-28T14:15:56,568][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][2] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][2]] containing [4] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,558][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][3] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][3]] containing [5] requests
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:714) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:692) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:673) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1034) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1012) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:103) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:359) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:299) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:975) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:972) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2220) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:984) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:98) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:320) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:295) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:282) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:656) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:635) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Mixing up field types: class org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType != class org.elasticsearch.index.mapper.KeywordFieldMapper$KeywordFieldType on field time
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:373) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:52) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDynamicValue(DocumentParser.java:818) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:612) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:407) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 32 more
+[2018-02-28T14:15:56,625][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,625][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][3] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][3]] containing [5] requests
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:714) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:692) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:673) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1034) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1012) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:103) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:359) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:299) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:975) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:972) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2220) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:984) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:98) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:320) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:295) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:282) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:656) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:635) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Mixing up field types: class org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType != class org.elasticsearch.index.mapper.KeywordFieldMapper$KeywordFieldType on field time
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:373) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:52) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDynamicValue(DocumentParser.java:818) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:612) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:407) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 32 more
+[2018-02-28T14:15:56,643][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][0] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][0]] containing [5] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,653][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,653][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][3] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][3]] containing [5] requests
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentParser.wrapInMapperParsingException(DocumentParser.java:175) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:70) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:261) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:714) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:692) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.applyIndexOperationOnPrimary(IndexShard.java:673) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:548) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequest(TransportShardBulkAction.java:140) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:236) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.performOnPrimary(TransportShardBulkAction.java:123) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:110) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:72) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1034) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:1012) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:103) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:359) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:299) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:975) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:972) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShardOperationPermits.acquire(IndexShardOperationPermits.java:238) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationPermit(IndexShard.java:2220) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:984) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$500(TransportReplicationAction.java:98) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:320) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:295) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:282) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:656) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:635) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: java.lang.IllegalStateException: Mixing up field types: class org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType != class org.elasticsearch.index.mapper.KeywordFieldMapper$KeywordFieldType on field time
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:373) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldMapper.updateFieldType(FieldMapper.java:52) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDynamicValue(DocumentParser.java:818) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:612) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:407) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:384) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:67) ~[elasticsearch-6.2.1.jar:6.2.1]
+	... 32 more
+[2018-02-28T14:15:56,654][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][2] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][2]] containing [4] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,679][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,693][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][0] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][0]] containing [5] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,710][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,720][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][2] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][2]] containing [4] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,751][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,761][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][0] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][0]] containing [5] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,837][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:15:56,847][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][0] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][0]] containing [5] requests
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:16:12,826][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:16:26,303][INFO ][o.e.c.m.MetaDataDeleteIndexService] [L_2H3xM] [logstash-2018.02.28/GaNBP8ZrS7-lJTCfc-GDjA] deleting index
+[2018-02-28T14:16:28,728][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [logstash-2018.02.28] creating index, cause [api], templates [logstash], shards [5]/[1], mappings [_default_, log]
+[2018-02-28T14:16:32,327][INFO ][o.e.c.m.MetaDataDeleteIndexService] [L_2H3xM] [logstash-2018.02.28/yAWH4iIATVa2OqF-rTITLA] deleting index
+[2018-02-28T14:16:42,832][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1015.3mb[14.4%], replicas will not be assigned to this node
+[2018-02-28T14:17:12,838][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:17:42,847][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:18:12,853][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:18:42,866][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:19:12,871][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:19:16,976][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [logstash-2018.02.28] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-02-28T14:19:17,473][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/cbVeipFSRFCcaHz6vzvA3Q] create_mapping [doc]
+[2018-02-28T14:19:42,890][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:20:12,899][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:20:42,906][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:21:12,915][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:21:42,922][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:22:12,928][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:22:18,836][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/cbVeipFSRFCcaHz6vzvA3Q]]], type [_doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [_doc, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:22:42,933][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:23:12,938][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:23:42,947][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1009mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:23:58,702][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/cbVeipFSRFCcaHz6vzvA3Q] update_mapping [doc]
+[2018-02-28T14:24:12,953][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:24:35,024][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/cbVeipFSRFCcaHz6vzvA3Q]]], type [_doc]
+java.lang.IllegalArgumentException: mapper [percent] cannot be changed from type [text] to [integer]
+	at org.elasticsearch.index.mapper.MappedFieldType.checkTypeName(MappedFieldType.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MappedFieldType.checkCompatibility(MappedFieldType.java:162) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.checkCompatibility(TextFieldMapper.java:218) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:128) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.copyAndAddAll(FieldTypeLookup.java:94) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:426) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:24:42,965][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:25:12,971][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:25:42,982][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:26:12,994][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:26:43,000][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:27:13,012][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:27:37,574][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/cbVeipFSRFCcaHz6vzvA3Q]]], type [_doc]
+java.lang.IllegalArgumentException: Mapper for [percent] conflicts with existing mapping in other types:
+[mapper [percent] has different [norms] values, cannot change from disable to enabled, mapper [percent] is used by multiple types. Set update_all_types to true to update [omit_norms] across all types.]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:130) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.copyAndAddAll(FieldTypeLookup.java:94) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:426) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:27:43,021][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:28:13,034][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:28:43,041][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:29:13,055][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:29:43,060][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:29:49,670][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/cbVeipFSRFCcaHz6vzvA3Q]]], type [_doc]
+java.lang.IllegalArgumentException: Mapper for [message] conflicts with existing mapping in other types:
+[mapper [message] has different [norms] values, cannot change from disable to enabled, mapper [message] is used by multiple types. Set update_all_types to true to update [omit_norms] across all types.]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:130) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.copyAndAddAll(FieldTypeLookup.java:94) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:426) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:30:13,069][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:30:43,076][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:31:13,083][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:31:43,092][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:32:13,118][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.4mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:32:43,134][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:33:13,141][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:33:43,146][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:34:13,167][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:34:43,173][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:35:13,180][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:35:43,187][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:36:13,202][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:36:43,222][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:37:13,237][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:37:43,247][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:38:13,269][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:38:43,275][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:39:13,301][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:39:43,311][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:40:13,325][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:40:43,338][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:41:13,354][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:41:43,359][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:42:13,367][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:42:43,374][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:43:13,383][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:43:43,392][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:44:13,399][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:44:43,409][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:45:13,418][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.4mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:45:27,790][INFO ][o.e.c.m.MetaDataDeleteIndexService] [L_2H3xM] [logstash-2018.02.28/cbVeipFSRFCcaHz6vzvA3Q] deleting index
+[2018-02-28T14:45:43,423][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:46:13,435][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:46:43,440][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:47:13,445][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:47:14,971][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [logstash-2018.02.28] creating index, cause [api], templates [logstash], shards [5]/[1], mappings [_default_, log]
+[2018-02-28T14:47:43,451][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:48:13,458][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:48:43,467][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:49:13,476][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:49:43,480][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.3mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:49:57,160][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [L_2H3xM] failed to put mappings on indices [[[logstash-2018.02.28/CzZ6QMuMRWConSs1ohNyRw]]], type [doc]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:49:57,162][DEBUG][o.e.a.b.TransportShardBulkAction] [logstash-2018.02.28][4] failed to execute bulk item (index) BulkShardRequest [[logstash-2018.02.28][4]] containing [index {[logstash-2018.02.28][doc][Uqwt3mEBtdlGX-xixWWU], source[{"host":"andrew-VirtualBox","@version":"1","type":"CPUUsage","message":"","@timestamp":"2018-02-28T20:49:57.029Z","tags":["_grokparsefailure"],"path":"/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/logstash-6.2.2/data/CPUUsage.txt"}]}]
+java.lang.IllegalArgumentException: Rejecting mapping update to [logstash-2018.02.28] as the final mapping would have more than 1 type: [log, doc]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:501) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:353) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:285) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:313) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:273) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:198) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:133) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:566) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.2.1.jar:6.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[2018-02-28T14:50:13,486][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:50:30,324][INFO ][o.e.c.m.MetaDataDeleteIndexService] [L_2H3xM] [logstash-2018.02.28/CzZ6QMuMRWConSs1ohNyRw] deleting index
+[2018-02-28T14:50:32,322][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [logstash-2018.02.28] creating index, cause [api], templates [logstash], shards [5]/[1], mappings [_default_, doc]
+[2018-02-28T14:50:37,296][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/7M__fZwnSfWrabHCln1rJg] update_mapping [doc]
+[2018-02-28T14:50:37,299][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/7M__fZwnSfWrabHCln1rJg] update_mapping [doc]
+[2018-02-28T14:50:43,496][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:51:13,501][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:51:34,012][INFO ][o.e.c.m.MetaDataDeleteIndexService] [L_2H3xM] [logstash-2018.02.28/7M__fZwnSfWrabHCln1rJg] deleting index
+[2018-02-28T14:51:39,453][INFO ][o.e.c.m.MetaDataCreateIndexService] [L_2H3xM] [logstash-2018.02.28] creating index, cause [api], templates [logstash], shards [5]/[1], mappings [_default_, doc]
+[2018-02-28T14:51:43,508][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.3mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:52:00,515][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/EtxbNCOzTP26fzU-525N1Q] update_mapping [doc]
+[2018-02-28T14:52:13,518][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:52:30,755][INFO ][o.e.c.m.MetaDataMappingService] [L_2H3xM] [logstash-2018.02.28/EtxbNCOzTP26fzU-525N1Q] update_mapping [doc]
+[2018-02-28T14:52:43,523][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:53:13,538][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:53:43,545][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:54:13,557][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:54:43,562][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:55:13,567][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:55:43,577][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:56:13,583][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.2mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:56:43,588][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008.1mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:57:13,594][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:57:43,602][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.7mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:58:13,615][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:58:43,622][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:59:13,631][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T14:59:43,644][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:00:13,658][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:00:43,667][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:01:13,679][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:01:43,689][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:02:13,695][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:02:43,701][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:03:13,708][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:03:43,743][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:04:13,750][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1008mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:04:43,761][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:05:13,767][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.5mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:05:43,773][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.8mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:06:13,783][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.4mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:06:43,789][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.4mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:07:13,800][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.4mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:07:43,809][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.4mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:08:13,821][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:08:43,843][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node
+[2018-02-28T15:09:13,850][INFO ][o.e.c.r.a.DiskThresholdMonitor] [L_2H3xM] low disk watermark [85%] exceeded on [L_2H3xMqRmGShOpaUg62vw][L_2H3xM][/home/andrew/Desktop/Dell/Logstash-Kibana-Elastic/elasticsearch-6.2.1/data/nodes/0] free: 1007.9mb[14.3%], replicas will not be assigned to this node

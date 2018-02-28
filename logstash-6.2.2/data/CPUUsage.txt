@@ -1,0 +1,18 @@
+
+Minimum Reading
+Last Hour    = 0% [At Sun, 11 Feb 2018 08:49:48]
+Last Day     = 0% [At Fri, 20 Oct 2017 15:19:48]
+Last Week    = 0% [At Wed, 31 Dec 1969 18:00:00]
+
+Maximum Readings
+Last Hour    = 1% [At Tue, 31 Oct 2017 10:36:44]
+Last Day     = 4% [At Fri, 20 Oct 2017 15:21:28]
+Last Week    = 4% [At Fri, 20 Oct 2017 15:21:28]
+
+Average Readings
+Lst Hour    = 0%
+Last Day     = 0%
+Last Week    = 0%
+
+Peak Readings
+Last Week    = 0% [At Wed, 31 Dec 1969 18:00:00]

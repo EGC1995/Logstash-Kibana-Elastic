@@ -1,0 +1,12 @@
+TEST \s{3,4}\W
+PERCENT [0-100]\W
+WAS \n\w{7}\s\w{8}
+WASTE \W\s\W\w\w\s\w\w\w\W\s
+RN \R
+RNC \W\R
+MONTH \w\w\w
+WASTE1 \W\n\w\w\w\w\s\w\w\w\s\s\s\s\s\W\s
+WASTE2 \W\n\w\w\w\w\s\w\w\w\w\s\s\s\s\W\s
+WASTEBREAK \W\n\n[\w]{4,7}\s[\w]{8}\n
+WASTE3 [\w]{4}\s[\w]{4}[\s]{4}\W\s
+WASTEAVG \W\n[\w]{4}\s[\w]{3,4}[\s]{4,5}\W\s
