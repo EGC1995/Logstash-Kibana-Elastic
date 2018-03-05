@@ -2,8 +2,7 @@
 Dell 4 Senior Design Project - Gathering and Visualization of Server Metrics
 
 # Installation / Setup
-1. Download repo
-1.1 NOTE: Logstash currently only works with Java 8 and below. It WILL NOT WORK with Java 9+
+1. Download repo (Logstash currently only works with Java 8 and below. It WILL NOT WORK with Java 9+)
 2. Go to logstash-6.2.2/logstash-simple.conf and change the PATH on line 3 to the ABSOLUTE PATH of the data file used
 
 # Operation
